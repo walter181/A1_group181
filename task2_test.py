@@ -17,7 +17,7 @@ except:
 
 print("Task 2 vocab file passed!")
 
-groupnum="1"
+groupnum="181"
 with open("{}_countvec.txt".format(groupnum.zfill(3)), "r",encoding='utf-8') as file:
     countvec = file.readlines()
 
